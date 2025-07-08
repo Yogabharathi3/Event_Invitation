@@ -8,7 +8,7 @@ Use <!DOCTYPE html>, <html>, <head>, <title>, and <body>.
 
 Set the title as "Event Invitation".
 
-➤ CSS Styling:
+##### CSS Styling:
 
 Set background color for the body (e.g., light beige or pastel).
 
@@ -17,7 +17,7 @@ Apply font-family (e.g., sans-serif) for consistent typography.
 2. Create the Invitation Container
 Use a <div> with a class like invite-card to wrap the entire content.
 
-➤ CSS Styling:
+##### CSS Styling:
 
 Set width, padding, border-radius, and a soft box-shadow.
 
@@ -28,7 +28,7 @@ Use <h1> for the event name (e.g., "Annual Alumni Meet").
 
 Use <h3> for a subtitle (e.g., "Reconnect & Celebrate Together").
 
-➤ CSS Styling:
+##### CSS Styling:
 
 Center the headings.
 
@@ -43,7 +43,7 @@ Time (e.g., 6:00 PM onwards)
 
 Venue (e.g., College Auditorium)
 
-➤ CSS Styling:
+##### CSS Styling:
 
 Use bold text for labels (e.g., Date:).
 
@@ -52,7 +52,7 @@ Align text centrally or left with padding/margin adjustments.
 5. Add an Image or Banner (Optional)
 Use <img> for a decorative image or event logo.
 
-➤ CSS Styling:
+##### CSS Styling:
 
 Use max-width: 100%, border-radius, and center alignment.
 
