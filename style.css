@@ -7,7 +7,7 @@ body {
     height: 100vh;            
 }
 
-Invite-card {
+.Invite-card {
     width: 80%;
     max-width: 700px;          
     padding: 20px;
