@@ -69,14 +69,14 @@ Include contact name, phone number, or RSVP link.
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="Invite card">
+        <div class="Invite-card">
             <h1>Alumni meet</h1>
             <h3>Reconnect & Celebrate together</h3>
 
             <p>
              We warmly welcome all our esteemed alumni to this special gathering. It’s a pleasure to have you back on campus, where countless memories were made and lifelong bonds began. Let’s cherish the past, celebrate the present, and look forward to a future filled with continued connection and success.  
             </p>
-            <img src="alumi.jpeg" alt="Event banner">
+            <img src="alumi.jpeg" alt="Event banner" class="banner">
             <p>Date:May 22, 2025</p>
             <p>Time:5:00 pm onwards</p>
             <p>Venue:College Auditorium</p>
@@ -99,13 +99,18 @@ body {
     height: 100vh;            
 }
 
-invite-card {
+Invite-card {
     width: 80%;
     max-width: 700px;          
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     background-color: white;   
+}
+.banner {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h1, h3 {
@@ -143,6 +148,7 @@ label {
 }
 ```
 # Output:
-![image](https://github.com/user-attachments/assets/a2cf585e-bcde-4820-99e5-64cbd98ff782)
+![image](https://github.com/user-attachments/assets/cbed9fee-68dc-40dd-8da8-d3304ed1d460)
+
 # Result:
 The event invitation was successfully created using HTML for structure and CSS for styling. It features a clean, visually appealing design that effectively communicates the event details.
